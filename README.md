@@ -5,7 +5,7 @@
 
 
  
- “Trata de Personas: Categorías de riesgo y proyección a futuro.”
+ ## “Trata de Personas: Categorías de riesgo y proyección a futuro.”
 
 Es un proyecto de investigación en el cual buscamos mediante la información sensibilizar y concientizar la problemática de la trata de personas y aportar información en relación a los riesgos que existen dependiendo del género y edad de pertenecer a una u otra categoría de trata.
 Utilizando técnicas de ciencia de datos y análisis estadístico para identificar patrones, tendencias y factores asociados.
