@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Sex &le; 0.5<br/>gini = 0.667<br/>samples = 3474<br/>value = [1168, 1152, 1154]<br/>class = Forced labour>, fillcolor="#fffefe"] ;
+1 [label=<Age &le; 0.5<br/>gini = 0.666<br/>samples = 1734<br/>value = [600, 598, 536]<br/>class = Forced labour>, fillcolor="#ffffff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.667<br/>samples = 913<br/>value = [312, 304, 297]<br/>class = Forced labour>, fillcolor="#fffdfc"] ;
+1 -> 2 ;
+3 [label=<gini = 0.664<br/>samples = 821<br/>value = [288, 294, 239]<br/>class = Sexual exploitation>, fillcolor="#fdfffe"] ;
+1 -> 3 ;
+4 [label=<Age &le; 0.5<br/>gini = 0.666<br/>samples = 1740<br/>value = [568, 554, 618]<br/>class = Other forms of exploitation>, fillcolor="#faf7fe"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label=<gini = 0.666<br/>samples = 894<br/>value = [301, 281, 312]<br/>class = Other forms of exploitation>, fillcolor="#fdfbff"] ;
+4 -> 5 ;
+6 [label=<gini = 0.665<br/>samples = 846<br/>value = [267, 273, 306]<br/>class = Other forms of exploitation>, fillcolor="#f8f4fe"] ;
+4 -> 6 ;
+}
