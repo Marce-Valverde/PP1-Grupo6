@@ -11,15 +11,16 @@ Es un proyecto de investigación en el cual buscamos mediante la información se
 Utilizando técnicas de ciencia de datos y análisis estadístico para identificar patrones, tendencias y factores asociados.
 
 Fases:
-1 - Fase I: Análisis y exploración de datos (EDA)
 
-2- Fase II: Elección de modelos a entrenar
+Fase I: Análisis y exploración de datos (EDA)
+
+Fase II: Elección de modelos a entrenar
 
 a- Regresión Lineal.
 
 b- Árbol de decisión. 
 
-3- Fase III: Conclusión.
+Fase III: Conclusión.
 
 
  
