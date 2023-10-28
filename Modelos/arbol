@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Sex &le; 0.5<br/>entropy = 1.585<br/>samples = 3474<br/>value = [1164, 1174, 1136]<br/>class = Sexual exploitation>, fillcolor="#fefffe"] ;
+1 [label=<Age &le; 0.5<br/>entropy = 1.583<br/>samples = 1720<br/>value = [591, 597, 532]<br/>class = Sexual exploitation>, fillcolor="#fefffe"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<entropy = 1.585<br/>samples = 911<br/>value = [306, 306, 299]<br/>class = Forced labour>, fillcolor="#ffffff"] ;
+1 -> 2 ;
+3 [label=<entropy = 1.578<br/>samples = 809<br/>value = [285, 291, 233]<br/>class = Sexual exploitation>, fillcolor="#fdfffe"] ;
+1 -> 3 ;
+4 [label=<Age &le; 0.5<br/>entropy = 1.585<br/>samples = 1754<br/>value = [573, 577, 604]<br/>class = Other forms of exploitation>, fillcolor="#fcfafe"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label=<entropy = 1.585<br/>samples = 896<br/>value = [303, 300, 293]<br/>class = Forced labour>, fillcolor="#fffefe"] ;
+4 -> 5 ;
+6 [label=<entropy = 1.582<br/>samples = 858<br/>value = [270, 277, 311]<br/>class = Other forms of exploitation>, fillcolor="#f8f3fd"] ;
+4 -> 6 ;
+}
