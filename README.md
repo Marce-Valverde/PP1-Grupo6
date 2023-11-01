@@ -22,6 +22,9 @@ b- Árbol de decisión.
 
 Fase III: Conclusión.
 
+Link de video de exposición: https://drive.google.com/file/d/1W7lPnjCpUJOn4aQ1gH20vc3zsD7rYyyd/view?usp=sharing
+
+
 
  
  ## Integrantes:
